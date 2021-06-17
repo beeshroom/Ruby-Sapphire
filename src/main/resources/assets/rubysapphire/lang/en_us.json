@@ -1,0 +1,42 @@
+{
+"itemGroup.rubygroup": "Ruby + Sapphire",
+"item.rubysapphire.ruby": "Ruby",
+"item.rubysapphire.sapphire": "Sapphire",
+
+"block.rubysapphire.ruby": "Ruby",
+"block.rubysapphire.sapphire": "Sapphire",
+
+"block.rubysapphire.ruby_ore": "Ruby Ore",
+"block.rubysapphire.sapphire_ore": "Sapphire Ore",
+"block.rubysapphire.experience_ore":  "Experience Ore",
+"block.rubysapphire.ruby_block":  "Block of Ruby",
+"block.rubysapphire.sapphire_block":  "Block of Sapphire",
+
+
+"item.rubysapphire.ruby_helmet": "Ruby Helmet",
+"item.rubysapphire.ruby_chestplate": "Ruby Chestplate",
+"item.rubysapphire.ruby_leggings": "Ruby Leggings",
+"item.rubysapphire.ruby_boots": "Ruby Boots",
+
+"item.rubysapphire.sapphire_helmet": "Sapphire Helmet",
+"item.rubysapphire.sapphire_chestplate": "Sapphire Chestplate",
+"item.rubysapphire.sapphire_leggings": "Sapphire Leggings",
+"item.rubysapphire.sapphire_boots": "Sapphire Boots",
+
+"item.rubysapphire.ruby_sword": "Ruby Sword",
+"item.rubysapphire.ruby_pickaxe": "Ruby Pickaxe",
+"item.rubysapphire.ruby_shovel": "Ruby Shovel",
+"item.rubysapphire.ruby_hoe": "Ruby Hoe",
+"item.rubysapphire.ruby_axe": "Ruby Axe",
+
+"item.rubysapphire.sapphire_sword": "Sapphire Sword",
+"item.rubysapphire.sapphire_pickaxe": "Sapphire Pickaxe",
+"item.rubysapphire.sapphire_shovel": "Sapphire Shovel",
+"item.rubysapphire.sapphire_hoe": "Sapphire Hoe",
+"item.rubysapphire.sapphire_axe": "Sapphire Axe",
+
+"advancements.rubysapphire.backtogether.title": "Back Together",
+"advancements.rubysapphire.backtogether.description": "Obtain a ruby and a sapphire"
+}
+
+

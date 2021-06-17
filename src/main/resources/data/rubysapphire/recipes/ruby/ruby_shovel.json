@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "R",
+    "S",
+    "S"
+  ],
+  "key": {
+    "R":
+    {
+       "tag": "forge:ruby"
+    },
+    "S":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "rubysapphire:ruby_shovel",
+    "count": 1
+  }
+}

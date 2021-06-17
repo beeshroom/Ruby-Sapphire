@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "R",
+    "R",
+    "S"
+  ],
+  "key": {
+    "R":
+    {
+       "tag": "forge:sapphire"
+    },
+    "S":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "rubysapphire:sapphire_sword",
+    "count": 1
+  }
+}
