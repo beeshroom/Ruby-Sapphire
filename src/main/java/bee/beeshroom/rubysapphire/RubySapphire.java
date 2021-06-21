@@ -4,6 +4,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import bee.beeshroom.rubysapphire.core.init.BlockInit;
+import bee.beeshroom.rubysapphire.core.init.EffectsInit;
 import bee.beeshroom.rubysapphire.core.init.ItemInit;
 import bee.beeshroom.rubysapphire.world.OreGen;
 import net.minecraft.item.ItemGroup;
@@ -36,6 +37,8 @@ public class RubySapphire {
 		ItemInit.ITEMS.register(bus);
 		BlockInit.BLOCKS.register(bus);
 
+		EffectsInit.EFFECTS.register(bus);
+		
 		MinecraftForge.EVENT_BUS.register(this);
 		MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, OreGen::generateOres);
 		

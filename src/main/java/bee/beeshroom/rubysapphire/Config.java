@@ -23,6 +23,7 @@ public class Config {
 	public static ForgeConfigSpec.BooleanValue SAPPHIREEVERYWHERE;
 	public static ForgeConfigSpec.BooleanValue OREEVERYWHERE;
 	public static ForgeConfigSpec.BooleanValue SILVERFISH;
+	public static ForgeConfigSpec.BooleanValue BURNDROWNEFFECT;
 	
 	//
 	public static final String CATEGORY_CLIENT = "client";
@@ -69,6 +70,12 @@ public class Config {
 		SILVERFISH = COMMON_BUILDER
 				.comment("Should Silverfish infested blocks be able to generate in any biome, not just Extreme Hills? (Default: false)")
 				.define("enableSilverfish", false);
+		
+		//
+		
+		BURNDROWNEFFECT = COMMON_BUILDER
+				.comment("Should there be a status effect icon when you are burning or drowning? (Default: true)")
+				.define("enableburndrowneffect", true);
 		
 		//
 		

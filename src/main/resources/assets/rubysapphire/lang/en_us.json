@@ -35,6 +35,12 @@
 "item.rubysapphire.sapphire_hoe": "Sapphire Hoe",
 "item.rubysapphire.sapphire_axe": "Sapphire Axe",
 
+"effect.rubysapphire.burning": "Burning",
+"effect.rubysapphire.burning.0.desc": "",
+
+"effect.rubysapphire.drowning": "Drowning",
+"effect.rubysapphire.drowning.0.desc": "",
+
 "advancements.rubysapphire.backtogether.title": "Back Together",
 "advancements.rubysapphire.backtogether.description": "Obtain a ruby and a sapphire"
 }

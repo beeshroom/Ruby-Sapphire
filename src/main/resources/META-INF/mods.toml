@@ -1,3 +1,4 @@
+
 # This is an example mods.toml file. It contains the data relating to the loading mods.
 # There are several mandatory fields (#mandatory), and many more that are optional (#optional).
 # The overall format is standard TOML format, v0.5.0.
@@ -25,7 +26,7 @@ modId="rubysapphire" #mandatory
 # The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
 # ${file.jarVersion} will substitute the value of the Implementation-Version as read from the mod's JAR file metadata
 # see the associated build.gradle script for how to populate this completely automatically during a build
-version="${1.0}" #mandatory
+version="1.1" #mandatory
 
  # A display name for the mod
 displayName="Ruby + Sapphire" #mandatory
@@ -34,7 +35,7 @@ displayName="Ruby + Sapphire" #mandatory
 #updateJSONURL="" #optional
 
 # A URL for the "homepage" for this mod, displayed in the mod UI
-#displayURL="" #optional
+#displayURL="https://github.com/beeshroom/Ruby-Sapphire-1.16" #optional
 
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="ruby.png" #optional

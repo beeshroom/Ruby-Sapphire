@@ -3,10 +3,8 @@ package bee.beeshroom.rubysapphire.core.event;
 import bee.beeshroom.rubysapphire.Config;
 import bee.beeshroom.rubysapphire.RubySapphire;
 import bee.beeshroom.rubysapphire.core.init.ItemInit;
-import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.util.DamageSource;
 import net.minecraft.util.Hand;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
@@ -27,6 +25,8 @@ public class ToolEvents {
 			 //Integer fireticks = entity.getRemainingFireTicks();
 			 //BlockState blockstate = event.getState();
 			 Integer air = entity.getAirSupply();
+			 // random = ((LivingEntity)entity).getRandom(); 
+		        
 			
 			 //ruby boost
 			 
@@ -87,21 +87,29 @@ public class ToolEvents {
 					&&  entity.isUnderWater()			
 					) 
 			{
-				if (air <= 300 && air > 80)
+				if (air <= 300 && air > 120)
 				{
-				event.setNewSpeed(event.getOriginalSpeed() * 1.2f);
+				event.setNewSpeed(event.getOriginalSpeed() * 1.3f);
 				}
-				
-				if (air <= 80 && air > 15)
+				//	
+				if (air <= 120 && air > 15)
 				{
-				event.setNewSpeed(event.getOriginalSpeed() * 2.0f);
+				event.setNewSpeed(event.getOriginalSpeed() * 2.2f);		
 				}
-			
+				//
 				if (air <= 15)
 				{
 				event.setNewSpeed(event.getOriginalSpeed() * 2.6f);
 				//entity.playSound(SoundEvents.NOTE_BLOCK_PLING, 3.0f, 1.5f);
 				}
+				
+		/*		if (!entity.hasEffect(Effects.WATER_BREATHING) && entity.getAirSupply() >= 1)
+				{
+					if (random.nextInt(10) == 0) 
+		            { 
+				entity.setAirSupply(entity.getAirSupply() - 1); 
+		            }
+				} */
 			}
 			
 			//sapphire weak

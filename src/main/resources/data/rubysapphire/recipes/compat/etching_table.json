@@ -1,0 +1,30 @@
+{
+	"conditions": 
+  [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "etched"
+    }
+  ],
+  
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " GI",
+    "PPP"
+  ],
+  "key": {
+    "G": {
+            "tag": "forge:gem"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "etched:etching_table"
+	"count": 1
+  }
+}
