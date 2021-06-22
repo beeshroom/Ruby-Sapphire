@@ -2,16 +2,16 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "minecraft:jukebox"
+      "rubysapphire:alt_jukebox"
     ]
   },
   "criteria": {
-    "has_diamond": {
+    "has_gem": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "tag": "forge:gem"
+            "tag": "forge:gems"
           }
         ]
       }
@@ -19,13 +19,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:jukebox"
+        "recipe": "rubysapphire:alt_jukebox"
       }
     }
   },
   "requirements": [
     [
-      "has_diamond",
+      "has_gem",
       "has_the_recipe"
     ]
   ]

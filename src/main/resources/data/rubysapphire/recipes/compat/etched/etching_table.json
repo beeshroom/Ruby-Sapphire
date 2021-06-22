@@ -1,20 +1,18 @@
-{
-	"conditions": 
-  [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "etched"
-    }
-  ],
-  
+{	
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "etched"
+		}
+	],
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " GI",
+    " CI",
     "PPP"
   ],
   "key": {
-    "G": {
-            "tag": "forge:gem"
+    "C": {
+      "tag": "forge:corundums"
     },
     "I": {
       "tag": "forge:ingots/iron"
@@ -25,6 +23,5 @@
   },
   "result": {
     "item": "etched:etching_table"
-	"count": 1
   }
 }

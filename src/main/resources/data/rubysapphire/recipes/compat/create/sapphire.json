@@ -1,0 +1,31 @@
+{
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "create"
+		}
+	],
+	"type": "create:crushing",
+    "ingredients": [
+    	{
+    		"item": "rubysapphire:sapphire_ore"
+    	}
+    ], 
+	"results": [
+		{
+			"item": "rubysapphire:sapphire",
+			"count": 2
+		},
+		{
+			"item": "rubysapphire:sapphire",
+			"count": 1,
+			"chance": 0.25
+		},
+		{
+			"item": "minecraft:cobblestone",
+			"count": 1,
+			"chance": 0.125
+		}
+	],
+	"processingTime": 500
+}

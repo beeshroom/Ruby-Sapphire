@@ -38,7 +38,7 @@ displayName="Ruby + Sapphire" #mandatory
 #displayURL="https://github.com/beeshroom/Ruby-Sapphire-1.16" #optional
 
 # A file name (in the root of the mod JAR) containing a logo for display
-logoFile="ruby.png" #optional
+logoFile="rubysapphire.png" #optional
 
 # A text field displayed in the mod UI
 credits="Thanks turtywurty, cy4shot, and mcjty for your modding tutorials." #optional

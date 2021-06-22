@@ -79,15 +79,15 @@ public class ItemInit {
 									new Item.Properties().tab(RubySapphire.RUBY_GROUP)));
 					
 					public static final RegistryObject<Item> SAPPHIRE_AXE = ITEMS.register("sapphire_axe",
-							() -> new AxeItem(SapphireTier.SAPPHIRE, 5.5F, -3.1F,
+							() -> new AxeItem(SapphireTier.SAPPHIRE, 6.0F, -3.1F,
 									new Item.Properties().tab(RubySapphire.RUBY_GROUP)));
 					
 					public static final RegistryObject<Item> SAPPHIRE_HOE = ITEMS.register("sapphire_hoe",
-							() -> new HoeItem(SapphireTier.SAPPHIRE, -3, -1.0F,
+							() -> new HoeItem(SapphireTier.SAPPHIRE, -2, -1.0F,
 									new Item.Properties().tab(RubySapphire.RUBY_GROUP)));
 					
 					public static final RegistryObject<Item> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword",
-							() -> new SwordItem(SapphireTier.SAPPHIRE, 3, -2.4f,
+							() -> new SwordItem(SapphireTier.SAPPHIRE, 4, -2.4f,
 									new Item.Properties().tab(RubySapphire.RUBY_GROUP)));
 			
 		
